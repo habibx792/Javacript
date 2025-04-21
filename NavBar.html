@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NavBar</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav class="nav">
+        <button class="btn" onclick="bodyColor()"></button>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+    </nav>
+    <input type="text" id="userInput" 
+    placeholder="Intoduce your Self " onkeypress="if(event.key==='Enter') UpdateText()" >
+    <button id="btn" onclick="UpdateText()">Submit</button>
+
+    <h1 id="userInto">Welcome!</h1>
+    <script src="nav.js"></script>
+</body>
+</html>
